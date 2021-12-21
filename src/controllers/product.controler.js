@@ -1,8 +1,8 @@
 const express = require('express');
 
 
-const upload = require('../middleware/upload');
-const Product = require('../models/product.model');
+const upload = require('../middlewares/uploads');
+const Product = require('../models/users.model');
 const router = express.Router();
 
 const bodyParser = require('body-parser')

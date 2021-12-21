@@ -4,7 +4,7 @@ const ejs  = require('ejs');
 
 
 
-const productsController = require('./controllers/product.controller');
+const productsController = require('./controllers/product.controler');
 
 const app = express();
 app.use(express.json());
