@@ -1,10 +1,8 @@
-const mongoose= require('mongoose')
 
-module.exports=()=>{
+const mongoose = require('mongoose');
 
-
-
-  return  mongoose.connect("mongodb://127.0.0.1:27017/fileuploads")
+module.exports = ()=>{
+   return mongoose.connect("mongodb://127.0.0.1:27017/fileuploads")
 }
 
 
